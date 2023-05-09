@@ -15,6 +15,7 @@ class Cinema:
         for x in self.movie_list:
             print(x)
 
+
 class Movie:
     def __init__(self, movie_name, year) -> None:
         self.movie_name = movie_name
