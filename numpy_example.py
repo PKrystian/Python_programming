@@ -13,7 +13,7 @@ def random_walk(steps):
         steps_list[x] = steps_list[x-1] + np.random.choice([-1, 1])
     return steps_list
 
-#  Shows plot from 2 given arguments
+#  Shows plot from given arguments
 
 def show_walk_plot(array, plot_length):
     x = np.arange(0, plot_length)
@@ -43,7 +43,7 @@ value = random_walk(nr_of_steps)
 show_walk_plot(value, nr_of_steps)
 print(min_max(value))
 
-# Simulating n steps random walk function and save max value when exceeding x value
+# Simulating n steps random walk function and saving max value when exceeding x value
 
 for x in range(nr_of_sim):
     value = random_walk(nr_of_steps)
