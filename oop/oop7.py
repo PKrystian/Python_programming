@@ -25,8 +25,6 @@ class Employee:
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 
-
-
 class Company:
     def __init__(self, name):
         self.name = name
