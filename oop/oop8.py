@@ -55,13 +55,13 @@ stud2 = Student("Maciej", "Keqwa")
 sch1.add_student(stud1)
 sch1.add_student(stud2)
 
-# sch2.add_student(stud1)
-# stud1.add_school(sch1)
-# stud1.add_school(sch2)
+sch2.add_student(stud1)
+stud1.add_school(sch1)
+stud1.add_school(sch2)
 
 print(f"1: {sch1.get_student_list()}")
 
 sch1.rem_student(stud1)
-# stud1.rem_school()
+stud1.rem_school()
 
 print(f"2: {sch1.get_student_list()}")
