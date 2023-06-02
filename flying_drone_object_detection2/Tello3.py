@@ -33,7 +33,7 @@ for x in range (10):
     img = cv2.imread(image_source)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_detector.detectMultiScale(gray, 1.3, 5)
-
+    
     amount_found = len(faces)
 
     if amount_found != 0:
